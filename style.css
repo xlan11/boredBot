@@ -1,0 +1,28 @@
+
+
+body{
+    /* uigradients.com for gradient generator */
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+button{
+    width:200px;
+    height:200px;
+    background-color:orange;
+    color:white;
+    border:none;
+    border-radius:50%;
+    text-align:center;
+    border: 1px solid coral;
+    cursor:pointer;
+    font-size:1.8em;
+}
